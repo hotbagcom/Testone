@@ -101,6 +101,8 @@ git diff HEAD;
 /////git hub\\\\\
 origin=dosyanın git hub baglantısı
 git branch -r;
+//$ git remote add origin https://github.com/hotbagcom/rc-controller-with-nrf24L01.git
+\\git push -u origin master <==== (branch ın adı neyse )
 git remote
 git fetch;
 git pull origin master;
