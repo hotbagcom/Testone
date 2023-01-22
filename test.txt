@@ -1,1 +1,113 @@
-test test
+    _______                BTK Akademi versiyon kontrolu kursu notları  eğitim veren Atıl Samancıoğlu 
+  (}| *=* |{)                BTK Academy version controler course's notes by Atıl Samancıoğlu 
+\^+p<  0  >q+^/  
+     \   / 
+     [/ \]  
+     || ||
+     [] []
+      
+   
+   
+///////terminal kullanımı\\\\\\\
+ls;
+içinde bulunduğumuz klasörleri ve dosyaları gösterir
+ls -la;
+gizli klasörleride gösterir
+pwd;(print working diroctary)
+nerede olduğumuzun tam konumunu verir
+cd (istediğn alt klasörün tam adı);(change diroctary)-mesela  //cd Desktop
+yazdıgın alt klasöre girmeni sağlar
+cd ..;
+bi üst klasüre çıkar
+clear;
+ekranı temizler
+mkdir AI;
+ai klasörü oluşturdu
+touch ai.txt;
+ai.txt belgesi oluşturdu
+rm ai.txt
+ai.txt belgesini sildi
+rm -rf AI
+AI belgesini sildi
+
+
+
+
+//\\
+git
+git -h
+git -help
+\\//
+
+yukarı aşarı tuşlarıyla eski komutlar arasında gezinebilirsin
+
+///// git \\\\\
+git status;
+klasörün güncel git durumunu gösterir
+git init;(initilazitor)
+git init üstüne git yapılmaz(gribanın kafası karışabiliyor)
+git add (klasör adı);
+artık commitleyebilirsin
+git add .;
+değişen herşeyi ekler
+git commit -m "(your message deppends to firm ussualy with a few word)";
+git log;
+saat tarih ve bikaç başka değer
+touch .ignore;
+dosyası oluşturulup içine gizlenmek istenen gelge ,türüyle beraber yazılır
+////////ignor içine neler konulabilir\\\\\\\\\ 
+----dosyaları internete koymadan önce bi bak-----
+kodlama için mesela internetten bakabilirsin
+gitignore template java, python ...
+
+/////Head nedir\\\\\
+genelde son sürümü gösterir branchler açtıkça bu durum değişir.
+git branch feature<=oluşturmak istediğin gövde adı> ;
+kafa oluşturmak için
+git branch;
+mevcut gövdeleri ve kafanın bulunduğu gövdeyi gösterir
+git switch feature<=geçmel / 
+olmak istediğin gövdenin adı>
+git merge feature<=şu anki gövde ile birleştirmek istediğin gövdenin adı>
+
+/////stash\\\\\\
+git stash
+git stash list
+git stash apply stash{<!-- -->}
+git stash clear
+git stash pop
+git restore
+
+//////geriye dönme\\\\\\
+git restore .;
+add den sonra bi önceki sürünün geri getirilmesini sağlar
+git checkout (gitmek istediğin sürüm) ;
+daha eski sürümlere gitmeni sağlar
+git switch master;
+en son sürümdesin
+
+git reset (hash);
+içerikleri silmez
+git reset --hard (hash);
+sürümlerle beraber içerikleri de siler
+git revert (hash);
+sondan geri sırayla yapılmalı conflict cıkabilir
+log da hepsi bulunur yeni bişeymiş gibi eski versiyonlar clonlanıp yeni versiyon gibi eklenir(commit edilir?)
+
+git diff;
+güncel değişiklikleri gösterir
+git diff HEAD;
+
+/////git hub\\\\\
+origin=dosyanın git hub baglantısı
+git branch -r;
+git remote
+git fetch;
+git pull origin master;
+senkronizasyon için
+
+
+git clone (hash).git;
+katkı yapmak istersem
+fork larsan katkı yapmazsın 
+git push?origin master
